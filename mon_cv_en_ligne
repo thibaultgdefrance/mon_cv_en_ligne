@@ -1,0 +1,107 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href= "mon_cv_en_ligne.css" />
+		<title>thibault defrance</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+	<div id="photo">
+		<img id="profil" src="/home/thibault/Documents/img/photo_de_profil.png" />
+	</div>
+		<center>
+		
+			<div id="vert">
+			<h1 class="vert">Thibault Defrance</h1>
+			</div>
+			
+			<br/>
+			
+			<h2>developpeur web</h2>
+			<br/>
+			<div class="vert" id="knowledge">
+				<div>
+					<h2 class="vert">compétences:</h2>
+				</div>
+					<div class="competences">
+						<p>Html5</p>
+						<img src="/home/thibault/Documents/img/html5.png" class="icon"/>
+					</div>
+					<div class="competences">
+						<p>CSS</p>
+						<img id ="css" src="/home/thibault/Documents/img/index.png" class="icon"/>
+					</div>	
+					<div class="competences">
+						<p>PHP</p>
+						<img src="/home/thibault/Documents/img/php.png" class="icon"/>
+					</div>
+					<div class="competences">
+						<p>Java Script</p>
+						<img src="/home/thibault/Documents/img/java_sript.png" class="icon"/>
+					</div>
+					<div class="competences">
+						<p>Ruby</p>
+						<img src="/home/thibault/Documents/img/ruby.png" class="icon"/>
+					</div>
+					<div class="competences">
+						<p>Python</p>
+						<img src="https://www.python.org/static/opengraph-icon-200x200.png" class="icon"/>	
+					</div>								
+				</div>		
+		
+			<div class="vert" id="parcours">
+				<h2>Mon parcours</h2>
+				<ul>
+					<li>agent en service hospitalier CARMI</li>
+					<li>agent administratif securité social</li>
+					<li>agent administratif et logistique HOLCIM BETON</li>
+					<li>ingenieur du son et animateur radio RADIO PLUS</li>
+					<li>monteur video et cadreur TELE GOHELLE</li>
+				</ul>
+			</div>
+		
+			<div class="vert" id="a_propos">
+				<h2>À propos</h2>
+				<ul> 
+					<li>Animation 2d/3d</li>
+					<li>modelisation 3d</li>
+					<li>sculpture</li>
+					<li>dessin</li>
+					<li>musique</li>
+				</ul>
+			</div>
+	
+		
+			<div class="vert" id="etat_civil">
+				<h2>Me contacter</h2>
+				<ul>
+					<li>Tel:06.21.22.54.99</li>
+					<li>Mail:thibault.g.defrance@gmail.com</li>
+					<li>265 avenue Mitterrand</li>
+					<li>Sains-en-Gohelle</li>
+					<li>62114</li>
+				</ul>
+			</div>
+			<div id="me_poser_une_question" >
+				<div>
+					<h2 class="vert">Me poser une question.</h2>
+				</div>
+				<form action="" method="post" entype="multipart/form-data">
+					<div>
+						<input nom="nom" type="text" value="" placeholder="nom" required />
+					</div>
+					<div>
+						<input nom="prénom" type="text" value="" placeholder="prénom" required />
+					</div>
+					<div>
+						<input nom="email" type="email" value="" placeholder="email" required />
+					</div>
+					<div>
+						<textarea  name ="texte "placeholder="vos questions"></textarea>
+					</div>	
+						<button>Envoyer</button>
+					</form>
+			</div>
+		</center>	
+	</body>
+</html>
