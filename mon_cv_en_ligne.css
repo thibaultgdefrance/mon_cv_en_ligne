@@ -1,0 +1,90 @@
+body {
+	 background-image: url("/home/thibault/Documents/img/background-image-html.jpg");
+}
+
+h1{
+	color: #9ACD32;
+	border: solid ; #9ACD32;
+	display: inline-block;
+	border-radius:15%;
+	padding: 10px;
+	
+}
+
+h2{
+	color: ForestGreen;
+	border: solid ; #9ACD32;
+	display: inline-block;
+	border-radius:15%;
+	padding: 10px;
+}
+
+.icon {
+		width:40px;
+		display: inline;
+}
+
+.competences {
+	left:50%;
+	width:50px;
+	margin: 10px;
+	display: inline-block;
+}	
+
+.icon:hover {
+	width: 50px;
+}
+
+}
+.me_poser_une_question {
+	color: ForestGreen;
+	border: solid ; #9ACD32;
+	display: inline-block;
+	border-radius:15%;
+	padding: 10px;
+}
+
+
+
+#css {
+	border-radius:10px;
+}
+
+.vert{
+	color: ForestGreen;
+}
+
+#vert {
+	color: FrorestGreen;
+}
+
+#parcours {
+	display: inline-block;
+}
+
+#a_propos{
+	display: inline-block;
+}
+
+#etat_civil{
+	display: inline-block;
+}
+
+#profil{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+
+}
+
+#photo {
+	height: 100px;
+	width: 100px;
+	top: 20px;
+	right: 100px;
+	position: absolute;
+}
+#profil:hover {
+	height: 200px;
+	width: 200px;
+}
